@@ -1,6 +1,6 @@
 
 lib.callback.register('ars-rental:checkMoney', function(source, money)
-    local money = exports.ox_inventory:Search(source, 'count', 'money)
+    local money = exports.ox_inventory:Search(source, 'count', 'money')
     return money
 end)
 
